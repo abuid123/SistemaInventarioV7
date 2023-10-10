@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SistemaInventario.Models;
+using InventorySystem.Models;
 using System.Diagnostics;
 
-namespace SistemaInventario.Controllers
+namespace InventorySystem.Controllers
 {
     public class HomeController : Controller
     {

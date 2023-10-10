@@ -1,0 +1,12 @@
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\bin\Debug\net7.0\InventorySystem.Models.deps.json
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\bin\Debug\net7.0\InventorySystem.Models.dll
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\bin\Debug\net7.0\InventorySystem.Models.pdb
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.csproj.AssemblyReference.cache
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.AssemblyInfoInputs.cache
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.AssemblyInfo.cs
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.csproj.CoreCompileInputs.cache
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.dll
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\refint\InventorySystem.Models.dll
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.pdb
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\ref\InventorySystem.Models.dll
