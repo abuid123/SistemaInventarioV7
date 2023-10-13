@@ -13,4 +13,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaInventario.Models\InventorySystem.Models.csproj" />
+    <ProjectReference Include="..\SistemaInventario.Utilities\InventorySystem.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

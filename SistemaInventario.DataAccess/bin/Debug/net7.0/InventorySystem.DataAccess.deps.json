@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "InventorySystem.DataAccess/1.0.0": {
         "dependencies": {
+          "InventorySystem.Models": "1.0.0",
+          "InventorySystem.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.11",
@@ -609,6 +611,19 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "InventorySystem.Models/1.0.0": {
+        "dependencies": {
+          "InventorySystem.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "InventorySystem.Models.dll": {}
+        }
+      },
+      "InventorySystem.Utilities/1.0.0": {
+        "runtime": {
+          "InventorySystem.Utilities.dll": {}
+        }
       }
     }
   },
@@ -1030,6 +1045,16 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "InventorySystem.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventorySystem.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

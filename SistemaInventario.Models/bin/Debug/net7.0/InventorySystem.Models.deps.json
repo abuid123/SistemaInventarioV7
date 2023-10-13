@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "InventorySystem.Models/1.0.0": {
+        "dependencies": {
+          "InventorySystem.Utilities": "1.0.0"
+        },
         "runtime": {
           "InventorySystem.Models.dll": {}
+        }
+      },
+      "InventorySystem.Utilities/1.0.0": {
+        "runtime": {
+          "InventorySystem.Utilities.dll": {}
         }
       }
     }
   },
   "libraries": {
     "InventorySystem.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InventorySystem.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

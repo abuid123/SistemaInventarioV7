@@ -27,7 +27,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Models\\InventorySystem.Models.csproj": {
+                "projectPath": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Models\\InventorySystem.Models.csproj"
+              },
+              "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilities\\InventorySystem.Utilities.csproj": {
+                "projectPath": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilities\\InventorySystem.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -100,7 +107,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilities\\InventorySystem.Utilities.csproj": {
+                "projectPath": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilities\\InventorySystem.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -259,6 +270,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             }
           },
           "imports": [

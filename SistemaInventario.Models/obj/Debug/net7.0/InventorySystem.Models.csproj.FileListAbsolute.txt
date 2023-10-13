@@ -10,3 +10,6 @@ C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Mod
 C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\refint\InventorySystem.Models.dll
 C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.pdb
 C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\ref\InventorySystem.Models.dll
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\bin\Debug\net7.0\InventorySystem.Utilities.dll
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\bin\Debug\net7.0\InventorySystem.Utilities.pdb
+C:\Users\todoy\Desktop\SistemaInventario\SistemaInventario\SistemaInventario.Models\obj\Debug\net7.0\InventorySystem.Models.csproj.CopyComplete

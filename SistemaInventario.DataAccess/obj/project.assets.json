@@ -1042,6 +1042,29 @@
             "rid": "win"
           }
         }
+      },
+      "InventorySystem.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "InventorySystem.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventorySystem.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventorySystem.Models.dll": {}
+        }
+      },
+      "InventorySystem.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/InventorySystem.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventorySystem.Utilities.dll": {}
+        }
       }
     }
   },
@@ -2782,10 +2805,22 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "InventorySystem.Models/1.0.0": {
+      "type": "project",
+      "path": "../SistemaInventario.Models/InventorySystem.Models.csproj",
+      "msbuildProject": "../SistemaInventario.Models/InventorySystem.Models.csproj"
+    },
+    "InventorySystem.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../SistemaInventario.Utilities/InventorySystem.Utilities.csproj",
+      "msbuildProject": "../SistemaInventario.Utilities/InventorySystem.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "InventorySystem.Models >= 1.0.0",
+      "InventorySystem.Utilities >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.11",
@@ -2818,7 +2853,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Models\\InventorySystem.Models.csproj": {
+              "projectPath": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Models\\InventorySystem.Models.csproj"
+            },
+            "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilities\\InventorySystem.Utilities.csproj": {
+              "projectPath": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario.Utilities\\InventorySystem.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

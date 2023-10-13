@@ -17,12 +17,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaInventario.DataAccess\InventorySystem.DataAccess.csproj" />
     <ProjectReference Include="..\SistemaInventario.Models\InventorySystem.Models.csproj" />
     <ProjectReference Include="..\SistemaInventario.Utilities\InventorySystem.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
 </Project>
