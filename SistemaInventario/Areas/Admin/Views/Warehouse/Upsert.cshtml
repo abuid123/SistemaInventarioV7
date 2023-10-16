@@ -72,18 +72,13 @@
             var name = '#name'
 
             $.getJSON(url, { name: $(name).val(), id: $(id).val() }, function (data) {
-                //$.each(data, function (index, value) {
-                //    if (value) {
-                //        var name = document.getElementById("name");
-                //        swal("Error", "The name is already in use", "error");
-                //        name.value = "";
-                //    }
-                //});
-                if (data) {
-                    var name = document.getElementById("name");
-                    swal("Error", "The name is already in use", "error");
-                    name.value = "";
-                }
+                $.each(data, function (index, value) {
+                    if (value) {
+                        var name = document.getElementById("name");
+                        swal("Error", "The name is already in use", "error");
+                        name.value = "";
+                    }
+                });
             });
         }
     </script>
