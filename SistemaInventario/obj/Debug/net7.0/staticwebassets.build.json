@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oQd2hHGn/b6gbXrK4AWwe3PO+IZxL+jtHS4A9om5gfo=",
+  "Hash": "mLa+77r1jV3ehhDCwqyp7CUz95RHPbx4L1NPtrA0tlA=",
   "Source": "InventorySystem",
   "BasePath": "_content/InventorySystem",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\warehouse.js",
+      "SourceId": "InventorySystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/InventorySystem",
+      "RelativePath": "js/warehouse.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\warehouse.js"
     },
     {
       "Identity": "C:\\Users\\todoy\\Desktop\\SistemaInventario\\SistemaInventario\\SistemaInventario\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
