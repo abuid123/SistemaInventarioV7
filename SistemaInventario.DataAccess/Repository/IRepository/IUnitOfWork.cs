@@ -9,6 +9,7 @@ namespace InventorySystem.DataAccess.Repository.IRepository
     public interface IUnitOfWork : IDisposable
     {
         IWarehouseRepository Warehouse { get; }
+        ICategoryRepository Category { get; }
 
         Task SaveAsync();
     }
