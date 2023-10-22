@@ -13,6 +13,7 @@ namespace InventorySystem.DataAccess.Data
 
         public DbSet<Models.Warehouse> Warehouse { get; set; }
         public DbSet<Models.Category> Categories { get; set; }
+        public DbSet<Models.Brand> Brands { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -1,10 +1,5 @@
 ﻿using InventorySystem.DataAccess.Data;
 using InventorySystem.DataAccess.Repository.IRepository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InventorySystem.DataAccess.Repository
 {
@@ -14,11 +9,13 @@ namespace InventorySystem.DataAccess.Repository
 
         public IWarehouseRepository Warehouse { get; private set; }
         public ICategoryRepository Category { get; private set; }
+        public IBrandRepository Brand { get; private set; }
 
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Warehouse = new WarehouseRepository(_db);
+            Brand = new BrandRepository(_db);
             Category = new CategoryRepository(_db);
         }
 

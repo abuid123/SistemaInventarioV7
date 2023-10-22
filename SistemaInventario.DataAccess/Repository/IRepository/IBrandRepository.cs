@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace InventorySystem.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface IBrandRepository : IRepository<Brand>
     {
-        void Update(Category category);
+        void Update(Brand brand);
     }
 }
